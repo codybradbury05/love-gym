@@ -129,3 +129,20 @@ h3 {
     color: #dfb2b2;
 }
 
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(176, 64, 64, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: #461919;
+    color: #dfb2b2;
+}
+
+.choice-text {
+    padding: 1.5rem;
+}
+
