@@ -11,7 +11,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Russo One', sans-serif;
-    color: #434343;
+    color: #b04040;
 }
 
 /* General Styles */
@@ -113,3 +113,19 @@ h3 {
     box-shadow: none;
     transform: none;
 }
+
+/* Game Page CSS */
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgba(176, 64, 64, 0.25);
+    background-color: #b04040;
+    
+}
+
+.choice-container > p {
+    color: #dfb2b2;
+}
+
