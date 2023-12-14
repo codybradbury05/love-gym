@@ -1,12 +1,48 @@
 /* Google Font Import */
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
+:root {
+    background-color: #b04040;
+    font-size: 62.5%;
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Russo One', sans-serif;
+    color: #434343;
 }
+
+/* General Styles */
 
 body {
     font-family: 'Russo One', sans-serif;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Russo One', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 5.4rem;
+    margin-bottom: 5rem;
+}
+
+h1 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
 }
