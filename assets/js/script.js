@@ -70,6 +70,7 @@ startGame = () => {
 
 getNewQuestion = () => {
     if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        localStorage
         //go to the end page
         return window.location.assign("/endscreen.html");
     }
