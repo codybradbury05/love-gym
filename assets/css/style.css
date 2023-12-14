@@ -85,3 +85,31 @@ h3 {
 .hidden {
     display: none;
 }
+
+/* Buttons */
+
+/* BUTTONS */
+.button {
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid #b04048;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #dfb2b2;
+    background-color: #b04040;
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(176, 64, 64, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.button[disabled]:hover {
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
