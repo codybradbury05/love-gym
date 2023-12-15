@@ -173,3 +173,4 @@ The Technologies used are stated below:
 ### Media
 
 - The favicon was created on [favicon.io](https://favicon.io/favicon-generator/)
+- Wireframes were created on [Figma.com](www.figma.com)
