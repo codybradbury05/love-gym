@@ -15,6 +15,7 @@ Love Gym is a quiz site that quizes peoples gym knowledge. Love Gym provides an 
 - Below is the wireframes I created to plan the design of the website. By using wireframes it helped me works towards a design and have a more focused end product.
 
 - __Home Page__
+
 ![Home Wireframe](assets/images/wireframehome.PNG)
 
 - __Play Game Page__
@@ -22,6 +23,7 @@ Love Gym is a quiz site that quizes peoples gym knowledge. Love Gym provides an 
 ![Play Game Wireframe](assets/images/wireframeplaygame.PNG) 
 
 - __End Game Page__
+  
 ![End Game Page](assets/images/wireframeendgame.PNG)
 
 ### Colour Scheme
@@ -82,14 +84,14 @@ Love Gym is a quiz site that quizes peoples gym knowledge. Love Gym provides an 
   - This section allows the user to see their score and gives them options to input their username and save their score and name, play again or return home.
   - The end game section is important for the user as it allows them to know that the quiz is over.
 
-![End Game Section](assets/images/wireframeendgame.PNG)
+![End Game Section](assets/images/Lovegymendgame.PNG)
 
 - __High Scores Section__
 
   - The highscores section displays the score and username submitted by the user, multiple scores and usernames can be submitted. However, data is only storred locally.
   - This adds value for the user as it allows them to track their progress and keep track of their best score.
 
-![High Scores](assets/images/wireframeendgame.PNG)
+![High Scores](assets/images/lovegymhighscores.PNG)
 
 ### Features Left to Implement
 
@@ -125,7 +127,7 @@ Love Gym is a quiz site that quizes peoples gym knowledge. Love Gym provides an 
 
 ### Lighthouse Testing
 
-- I used Lighthouse to test other areas of my website, all tests were completed on the mobile side.
+- I used Lighthouse to test other areas of my website, all tests were completed on the mobile side. Accessibility was lower due to the contrast of colors being not a higher enough ration. This is something I could change for the future by using a higher color contrast ratio.
 
 ### Home Page
 ![Home Page](assets/images/lighthousehome.PNG)
