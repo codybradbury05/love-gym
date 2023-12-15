@@ -1,39 +1,176 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Love Gym - Quiz
 
-Welcome,
+## Purpose
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Get Strong is a landing page to encourage people to get strong within the gym. Get Strong provides a set of example exercises in order to help with strength gains. Get strong helps people of all skill levels and gives them basic knowledge. At Get Strong we aim our website to anyone who wants to get into the gym and particularly make strength gains.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+Love Gym is a quiz site that quizes peoples gym knowledge. Love Gym provides an oppurtunity for learning and testing your knowledge. Love Gym's purpose is to create value within learning about your health and the gym.
 
-## Codeanywhere Reminders
+![Responsive Mockup](assets/images/lovegymresponsive.PNG)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Planning
 
-`python3 -m http.server`
+### WireFrames
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- Below is the wireframes I created to plan the design of the website. By using wireframes it helped me works towards a design and have a more focused end product.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- __Home Page__
+![Home Wireframe](assets/images/wireframehome.PNG)
 
-`http_server`
+- __Play Game Page__
+  
+![Play Game Wireframe](assets/images/wireframeplaygame.PNG) 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __End Game Page__
+![End Game Page](assets/images/wireframeendgame.PNG)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Colour Scheme
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- I have used 3 main colors from color pallete consisting of 5 colors, I have used a series of red, pinks and greys.
 
-To log into the Heroku toolbelt CLI:
+![Color Pallete](assets/images/lovegymcolorpallete.png)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Typography
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- I have used one main font, [Russo One](https://fonts.google.com/specimen/Russo+One?preview.text=GET%20STRONG&preview.text_type=custom&classification=Display). This was to stay consistent throught the whole website and create a familiarity within the website.
 
----
+### Target Audience
 
-Happy coding!
+- I aim to target gym goers who want to test their knowledge.
+- I aim to target people who don't know much about the gym and want to learn.
+- I aim to target all levels of experience to help give knowledge.
+
+### User Stories
+
+- As a user I want to understand the purpose of the site.
+- As a user I want to be able to benefit from the site.
+- As a user I want to be able to navigate the site with ease.
+- As a user I want to be able to save my score and username.
+
+### Site Aims
+
+- Inform the user about the purpose of the site.
+- Provide useful information to the user.
+- Allow the user to easily navigate the site.
+- Enable the user to gain/test their knowledge of the gym.
+- Allow the user to store their score and username.
+
+
+## Features
+
+### Existing Features
+
+- __The landing/home page__
+
+  - The Love Gym landing page image instantly grabs the attention of the user and notifies them of the purpose of the site.
+  - The landing page has a big title which informs them of the purpose of the site.
+  - Includes buttons to navigate around the page.
+
+![Landing Page](assets/images/lovegymhomepage.PNG)
+
+- __Play Game Section__
+
+  - The play game sections displays the user with a quiz and HUD in order to play the game.
+  - If the user gets an answer correct a green color is displayed on the answers, if incorrect an orange color is displayed.
+  - This allows the user to check their knowledge and know which questions are correct.
+
+
+![Play Game Section](assets/images/lovegymplaygame.PNG)
+
+- __End Game Section__
+
+  - This section allows the user to see their score and gives them options to input their username and save their score and name, play again or return home.
+  - The end game section is important for the user as it allows them to know that the quiz is over.
+
+![End Game Section](assets/images/wireframeendgame.PNG)
+
+- __High Scores Section__
+
+  - The highscores section displays the score and username submitted by the user, multiple scores and usernames can be submitted. However, data is only storred locally.
+  - This adds value for the user as it allows them to track their progress and keep track of their best score.
+
+![High Scores](assets/images/wireframeendgame.PNG)
+
+### Features Left to Implement
+
+- In the future, this website would be able to have the following features:
+- User scores saved into a database to make them consistent.
+- Different catergories of gym quizes.
+
+## Testing
+
+### Cross-browser Testing
+
+- I have checked my website works on multiple browsers, such as Firefox, Edge, Opera and Chrome.
+
+### Responsive Design Testing
+
+- My responsive design works as intended on all the browsers I have tested.
+- I have used websites such as <https://ui.dev/amiresponsive?url=https://codybradbury05.github.io/love-gym/index.html/> to also check whether my responsive design works and looks good.
+- I have used the Chrome devtools to check my responsive design works, testing on all different screen sizes. For example, Galaxy Fold, iPad Mini, Google Nest Hub Max.
+
+### Readability
+
+- I have clarified through myself and others that my design is readable and easy to understand as well as my design being consistent via colours, fonts and images.
+
+### Usability
+
+- I have tested that everything the user can interact with works as intended. As follows, all buttons work on click and give response when hovered over. My quiz fully works and gives user feedback whether a question is right, as well as tracks the score and number of questions. Username and score saves to the high score page.
+
+### Validator Testing
+
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator#css)
+  - No errors were found when passing through the website [validatejavascript.com](https://validatejavascript.com/)
+
+### Lighthouse Testing
+
+- I used Lighthouse to test other areas of my website, all tests were completed on the mobile side.
+
+### Home Page
+![Home Page](assets/images/lighthousehome.PNG)
+
+### Play Game Page
+![Play Game Page](assets/images/lighthouseplaygame.PNG)
+
+### End Game Page
+![End Game Page](assets/images/lighthousendgame.PNG)
+
+### High Score Page
+![High Score Page](assets/images/lighthousehighscores.PNG)
+
+
+### Bugs
+
+- The first bug I found was my buttons not directing to a new page, this was a file path problem and due to me deploying my page early I was able to solve this problem.
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+  - Due to me deploying the site early, it helped me spot any potential bugs early on the deployed site. This helped me to negate any problems that would have not shown on the live server.
+
+The live link can be found here - <https://codybradbury05.github.io/love-gym/highscores.html/>
+
+## Technology
+
+The Technologies used are stated below: 
+
+- HTML
+- CSS
+- JavaScript
+
+## Credits
+
+### Content
+
+- The code to make the quiz was used and changed from youtuber James Q Quick[James Q Quick](https://www.youtube.com/watch?v=rFWbAj40JrQ&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=3)
+- The Font was from. [Google Fonts](https://fonts.google.com/)
+- Color Palette was from. [color-hex.com](https://www.color-hex.com/color-palette/26063)
+
+### Media
+
+- The favicon was created on [favicon.io](https://favicon.io/favicon-generator/)
+
