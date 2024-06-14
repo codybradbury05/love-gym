@@ -4,8 +4,6 @@
 
 Love Gym is a quiz site that quizzes people's gym knowledge. Love Gym provides an opportunity for learning and testing your knowledge. Love Gym's purpose is to create value by learning about your health and the gym.
 
-![Responsive Mockup](assets/images/lovegymresponsive.PNG)
-
 ## Planning
 
 ### WireFrames
@@ -66,7 +64,7 @@ Love Gym is a quiz site that quizzes people's gym knowledge. Love Gym provides a
   - The landing page has a big title that informs them of the purpose of the site.
   - Includes buttons to navigate around the page.
 
-![Landing Page](assets/images/lovegymhomepage.PNG)
+![Landing Page](assets/images/menu.png)
 
 - __Play Game Section__
 
@@ -75,21 +73,8 @@ Love Gym is a quiz site that quizzes people's gym knowledge. Love Gym provides a
   - This allows the user to check their knowledge and know which questions are correct.
 
 
-![Play Game Section](assets/images/lovegymplaygame.PNG)
+![Play Game Section](assets/images/playgame.png)
 
-- __End Game Section__
-
-  - This section allows the user to see their score and gives them options to input their username and save their score and name, play again or return home.
-  - The end game section is important for the user as it allows them to know that the quiz is over.
-
-![End Game Section](assets/images/Lovegymendgame.PNG)
-
-- __High Scores Section__
-
-  - The high scores section displays the score and username submitted by the user, multiple scores and usernames can be submitted. However, data is only stored locally.
-  - This adds value for the user as it allows them to track their progress and keep track of their best score.
-
-![High Scores](assets/images/lovegymhighscores.PNG)
 
 ### Features Left to Implement
 
@@ -106,7 +91,7 @@ Love Gym is a quiz site that quizzes people's gym knowledge. Love Gym provides a
 ### Responsive Design Testing
 
 - My responsive design works as intended on all the browsers I have tested.
-- I have used websites such as <https://ui.dev/amiresponsive?url=https://codybradbury05.github.io/love-gym/index.html/> to also check whether my responsive design works and looks good.
+- I have used websites to also check whether my responsive design works and looks good.
 - I have used the Chrome developer tools to check my responsive design works, testing on all different screen sizes. For example, Galaxy Fold, iPad Mini, Google Nest Hub Max.
 
 ### Readability
@@ -128,21 +113,20 @@ Love Gym is a quiz site that quizzes people's gym knowledge. Love Gym provides a
 - I used Lighthouse to test other areas of my website, all tests were completed on the mobile side. Accessibility was lower due to the contrast of colors, not a high enough ration. This is something I could change in the future by using a higher color contrast ratio.
 
 ### Home Page
-![Home Page](assets/images/lighthousehome.PNG)
+![Home Page](assets/images/menu.png)
 
 ### Play Game Page
-![Play Game Page](assets/images/lighthouseplaygame.PNG)
+![Play Game Page](assets/images/playgame.png)
 
 ### End Game Page
-![End Game Page](assets/images/lighthousendgame.PNG)
+![End Game Page](assets/images/endscreen.png)
 
-### High Score Page
-![High Score Page](assets/images/lighthousehighscores.PNG)
 
 
 ### Bugs
 
 - The first bug I found was my buttons not directing to a new page, this was a file path problem and due to my deploying my page early, I was able to solve this problem.
+- Currently the score will not update and no fixes have worked correctly.
 
 ## Deployment
 
@@ -152,7 +136,7 @@ Love Gym is a quiz site that quizzes people's gym knowledge. Love Gym provides a
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
   - Due to me deploying the site early, it helped me spot any potential bugs early on the deployed site. This helped me to negate any problems that would have not shown on the live server.
 
-The live link can be found here - <https://codybradbury05.github.io/love-gym/highscores.html/>
+The live link can be found here - <https://8000-codybradbury05-lovegym-3ziz8nw5zjf.ws.codeinstitute-ide.net/index.html>
 
 ## Technology
 
@@ -165,8 +149,6 @@ The Technologies used are stated below:
 ## Credits
 
 ### Content
-
-- The code used to make the quiz was used and changed from youtuber James Q Quick[James Q Quick](https://www.youtube.com/watch?v=rFWbAj40JrQ&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=3)
 - The Font was from. [Google Fonts](https://fonts.google.com/)
 - Color Palette was from. [color-hex.com](https://www.color-hex.com/color-palette/26063)
 
