@@ -136,7 +136,7 @@ Love Gym is a quiz site that quizzes people's gym knowledge. Love Gym provides a
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
   - Due to me deploying the site early, it helped me spot any potential bugs early on the deployed site. This helped me to negate any problems that would have not shown on the live server.
 
-The live link can be found here - <https://8000-codybradbury05-lovegym-3ziz8nw5zjf.ws.codeinstitute-ide.net/index.html>
+The live link can be found here - <https://codybradbury05.github.io/love-gym/>
 
 ## Technology
 
