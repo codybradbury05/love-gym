@@ -14,3 +14,25 @@ var questionsarray = [{
   "response": "Yes, squat does target your legs",
   "answer": false
 }];
+
+(function() {
+    // your page initialization code here
+    fnReset(); //call reset on document ready
+  
+    document.getElementById("nextquestion").addEventListener('click', function(event) {
+      fnCheck();
+    });
+  
+    document.getElementById("checktrue").addEventListener('click', function(event) {
+      fnCheck(true);
+    });
+    document.getElementById("checkfalse").addEventListener('click', function(event) {
+      fnCheck(false);
+    });
+    document.getElementById("nextquestion").addEventListener('click', function(event) {
+      fnNext();
+    });
+    document.getElementById("reset").addEventListener('click', function(event) {
+      fnReset();
+    });
+  
