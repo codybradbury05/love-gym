@@ -35,4 +35,14 @@ var questionsarray = [{
     document.getElementById("reset").addEventListener('click', function(event) {
       fnReset();
     });
-  
+})();
+
+function fnReset() {
+
+    document.getElementById('questionresponse').classList.add('hide');
+    document.getElementById('nextquestion').classList.add('hide');
+    document.getElementById('reset').classList.add('hide');
+    document.getElementById('questionbox').classList.remove('hide');
+    currentquestion = 0;
+    document.getElementById('questiontext').innerHTML = questions[currentquestion].question;
+  }
