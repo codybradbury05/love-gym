@@ -1,14 +1,14 @@
 const questions = [
     {
-        question: "Bench press targets your chest",
+        question: "Bench press targets your chest?",
         answer: true
     },
     {
-        question: "Squats target your legs",
+        question: "Squats target your legs?",
         answer: true
     },
     {
-        question: "Deadlift targets your triceps",
+        question: "Deadlift targets your triceps?",
         answer: false
     }
 ];
