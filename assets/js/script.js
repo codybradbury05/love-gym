@@ -4,14 +4,14 @@ var currentquestion = 0;
 var questionsarray = [{
   "question": "Bench press targets your chest",
   "response": "Yes, bench press does target your chest",
-  "answer": false
+  "answer": true
 }, {
   "question": "Deadlift targets your back",
   "response": "Yes, Deadlift does target your back",
   "answer": true
 }, {
-  "question": "Squat targets your legs",
-  "response": "Yes, squat does target your legs",
+  "question": "Bicep curls targets your legs",
+  "response": "no, bicep curls does target your legs",
   "answer": false
 }];
 
@@ -44,5 +44,22 @@ function fnReset() {
     document.getElementById('reset').classList.add('hide');
     document.getElementById('questionbox').classList.remove('hide');
     currentquestion = 0;
+    document.getElementById('questiontext').innerHTML = questions[currentquestion].question;
+  }
+
+  function fnNext() {
+    document.getElementById('questionresponse').classList.add('hide');
+    if (currentquestion < questions.length - 1) {
+      currentquestion = currentquestion + 1;
+      document.getElementById('nextquestion').classList.add('hide');
+      document.getElementById('reset').classList.add('hide');
+  
+    } else {
+  
+      document.getElementById('nextquestion').classList.add('hide');
+      document.getElementById('questionbox').classList.add('hide');
+      document.getElementById('reset').classList.remove('hide');
+    }
+    document.getElementById('questionresponse').classList.add('hide');
     document.getElementById('questiontext').innerHTML = questions[currentquestion].question;
   }
