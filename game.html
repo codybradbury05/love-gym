@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Want to test your gym knowledge? Well you're in the right place!">
     <meta name="keywords" content="strength, gym, quiz, exercise, health, gym quiz">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/game.css">
     <title>Love Gym - The Quiz!</title>
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
@@ -17,7 +17,19 @@
 </head>
 
 <body>
-  
+    <div id="quiz-container">
+        <h1>Love Gym - T or F Quiz</h1>
+        <div id="question-container">
+            <div id="question">Question will go here</div>
+            <button id="true-btn" class="btn">True</button>
+            <button id="false-btn" class="btn">False</button>
+        </div>
+        <div id="result-container" class="hide">
+            <div id="result">Your score is: </div>
+            <button id="restart-btn" class="btn">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/76ffbb68c7.js" crossorigin="anonymous"></script>
 </body>
